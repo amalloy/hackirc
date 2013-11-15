@@ -50,8 +50,8 @@ If a client disconnects from the server without first sending a `LOGOUT`, the se
 < OK joined, now in 1 channels
 > JOIN clojure
 < OK joined, now in 2 channels
-< SAY factual acrow hey man welcome to the meetup!
-> MESSAGE factual hi, everyone
+< MESSAGE factual acrow hey man welcome to the meetup!
+> SAY factual hi, everyone
 < OK sent message to factual
 > LEAVE clojure
 < OK left, now in 1 channel
